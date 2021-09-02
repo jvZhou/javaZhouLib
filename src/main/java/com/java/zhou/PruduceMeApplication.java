@@ -5,7 +5,5 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class PruduceMeApplication {
-    public static void main(String[] args) {
-        SpringApplication.run(PruduceMeApplication.class, args);
-    }
+    public static void main(String[] args) {SpringApplication.run(PruduceMeApplication.class, args);}
 }

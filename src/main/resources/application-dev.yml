@@ -1,34 +1,8 @@
 server:
-  port: 6666
+  port: 666
   servlet:
     context-path: /javaZhou
 spring:
   application:
     name: javaZhou-produceMe
 
-  datasource:
-    driver-class-name:
-    url:
-    username:
-    password:
-    druid:
-      initialSize: 1
-      minIdle: 3
-      maxActive: 20
-      maxWait: 30000
-      timeBetweenEvictionRunsMillis: 60000
-      minEvictableIdleTimeMillis: 30000
-      validationQuery: select 1 from dual
-      testWhileIdle: true
-      testOnBorrow: false
-      testOnReturn: false
-      poolPreparedStatements: true
-      maxPoolPreparedStatementPerConnectionSize: 20
-      filters: stat,wall,slf4j
-      filter:
-        wall:
-          enabled: true
-          config:
-            function-check: false
-      connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
-      use-global-data-source-stat: true
