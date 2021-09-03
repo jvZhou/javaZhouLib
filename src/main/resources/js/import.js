@@ -1,4 +1,4 @@
+
 function exportResume() {
-    let merCode = $("#merCode").textbox('getValue');
-    window.location = '/javaZhou/fygift/finance/exportCategoryfyGift?merCode=' + merCode;
+    window.location = '/javaZhou/import/resume';
 }

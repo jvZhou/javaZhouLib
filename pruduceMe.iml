@@ -87,5 +87,16 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-webmvc:5.3.9" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-aop:5.3.9" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-expression:5.3.9" level="project" />
+    <orderEntry type="library" name="Maven: com.itextpdf:itextpdf:5.4.2" level="project" />
+    <orderEntry type="library" name="Maven: com.itextpdf.tool:xmlworker:5.4.1" level="project" />
+    <orderEntry type="library" name="Maven: com.itextpdf:itext-asian:5.2.0" level="project" />
+    <orderEntry type="library" name="Maven: org.xhtmlrenderer:flying-saucer-pdf:9.0.3" level="project" />
+    <orderEntry type="library" name="Maven: com.lowagie:itext:2.1.7" level="project" />
+    <orderEntry type="library" name="Maven: bouncycastle:bcmail-jdk14:138" level="project" />
+    <orderEntry type="library" name="Maven: bouncycastle:bcprov-jdk14:138" level="project" />
+    <orderEntry type="library" name="Maven: org.bouncycastle:bctsp-jdk14:1.38" level="project" />
+    <orderEntry type="library" name="Maven: org.bouncycastle:bcprov-jdk14:1.38" level="project" />
+    <orderEntry type="library" name="Maven: org.bouncycastle:bcmail-jdk14:1.38" level="project" />
+    <orderEntry type="library" name="Maven: org.xhtmlrenderer:flying-saucer-core:9.0.3" level="project" />
   </component>
 </module>
