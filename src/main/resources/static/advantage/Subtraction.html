@@ -56,7 +56,7 @@
     <script crossorigin="anonymous" defer="defer" integrity="sha512-ayuPVwRz9jGKlOugypzZZ7xTSOYlLB57pvAA1xd7EvfvAYYVkSZBO8+QWuxsux4TJxYihMBnzjQG4YtGlqPi0A==" type="application/javascript" src="https://github.githubassets.com/assets/signup-redesign-6b2b8f57.js"></script>
     <script crossorigin="anonymous" defer="defer" integrity="sha512-YKtcg/0fw1W3MYf4SC9//pf5gF2lTCUXpf+WjQOV+s1WQuk0peSTGh6DpwxvH92VYSURtZEz9rpaWIUaf/5X3g==" type="application/javascript" src="https://github.githubassets.com/assets/signup-60ab5c83.js"></script>
     <meta name="viewport" content="width=device-width">
-    <title>JavaZhou · Spring Bean Init Process</title>
+    <title>JavaZhou · Basic Subtraction Function</title>
     <meta name="description" content="GitHub is where people build software. More than 65 million people use GitHub to discover, fork, and contribute to over 200 million projects.">
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
     <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
@@ -153,30 +153,23 @@
             <text-suggester class="js-continue-container width-full z-1 signup-text-suggester" data-catalyst="">
                 <div class="m-4 p-4 f4 color-shadow-small bg-gray-800-mktg rounded-2 signup-content-container">
                     <typing-effect data-lines="[
-                     &quot;此Demo是手动模拟容器管理Bean初始化的案例&quot,
-                     &quot;代码开始：&quot,
-                     &quot;首先创建需要的类(xml,config,实体类)&quot,
+                     &quot;此Demo是一个不用-号做一个原生的减法功能&quot,
+                     &quot;代码开始:&quot,
                      &quot;public static void main(String[] args) {&quot,
-                     &quot;ResourcePatternResolver resolver = new PathMatchingResourcePatternResolver();&quot,
-                     &quot;Resource resource = resolver.getResource(PersonOneBean.xml);&quot,
-                     &quot;WDefaultListableBeanFactory beanFactory = new DefaultListableBeanFactory();&quot,
-                     &quot;XmlBeanDefinitionReader reader = new XmlBeanDefinitionReader(beanFactory);&quot,
-                     &quot;reader.loadBeanDefinitions(resource);&quot,
-                     &quot;System.out.println(Bean初始化开始.);&quot,
-                     &quot;PersonOne plane = beanFactory.getBean(PersonOne, PersonOne.class);&quot,
-                     &quot;System.out.println(plane);&quot,
-                     &quot;ApplicationContext context = new AnnotationConfigApplicationContext(Config.class);&quot,
-                     &quot;PersonTwo personTwo = context.getBean(PersonTwo, PersonTwo.class);&quot,
-                     &quot;personTwo.setDuxinying(javaZhou);&quot,
-                     &quot;System.out.println(personTwo);&quot,
-                     &quot;System.out.println(Bean初始化完成。);&quot,
-                     &quot;}&quot,
+                     &quot;int numOne = new Scanner(System.in).nextInt();&quot,
+                     &quot;int numTwo = ~(new Scanner(System.in).nextInt()) + 1;&quot,
+                     &quot;int sum=0;&quot,
+                     &quot;int jinwei=0;&quot,
+                     &quot;do{&quot,
+                     &quot;sum=numOne ^ numTwo;&quot,
+                     &quot;jinwei=(numOne & numTwo) << 1;&quot,
+                     &quot;numOne=sum;&quot,
+                     &quot;numTwo=jinwei;&quot,
+                     &quot;}while (jinwei != 0);&quot,
+                     &quot;System.out.println(sum);&quot,
                      &quot;------------运行结果如下-------------&quot,
-                     &quot;Bean初始化开始.&quot,
-                     &quot;PersonOne实体信息&quot,
-                     &quot;PersonTwo实体信息&quot,
-                     &quot;Bean初始化完成.&quot;]" data-continue-to="email-container" class="js-signup-typed-welcome">
-                        <span data-target="typing-effect.content" class="text-mono text-gray-mktg">Spring Bean Init Process</span>
+                     &quot;结果就是输入的两个整数相加.&quot;]" data-continue-to="email-container" class="js-signup-typed-welcome">
+                        <span data-target="typing-effect.content" class="text-mono text-gray-mktg">Basic Subtraction Function</span>
                     </typing-effect>
                     <form class="position-relative js-octocaptcha-parent" action="../index.html" accept-charset="UTF-8" method="post"><input type="hidden" data-csrf="true" name="authenticity_token" value="jNaI5j9jJgtCTN51/G7vUdFHNdsMvlWFs9kcwfayCIqXlMa6EkBiMYaTVcZ38wa+X0VCMzF7PKOgu8nrkwrJTg==">
                         <div id="email-container" class="js-continue-step-container signup-continue-step-container mt-4" data-step-state="active">
@@ -193,7 +186,7 @@
         <div class="d-flex flex-justify-center">
             <div class="mb-6" style="max-width: 654px;">
                 <p class="text-gray-mktg text-small m-4">
-                    A demo that simulates bean container management beans
+                    A demo that is Basic Subtraction Function
                 </p>
             </div>
         </div>
