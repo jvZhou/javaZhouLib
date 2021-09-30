@@ -4,5 +4,5 @@ import com.java.zhou.Common.Result;
 
 
 public interface ImportService {
-    public Result importResum();
+     Result importResum();
 }
