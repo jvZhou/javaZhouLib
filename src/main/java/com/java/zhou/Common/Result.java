@@ -1,6 +1,5 @@
 package com.java.zhou.Common;
 
-import com.java.zhou.Enum.ErrorEnum;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
@@ -11,7 +10,7 @@ import lombok.Setter;
 public class Result<T> {
 
     //状态码
-    private int code;
+    private String code;
 
     //状态描述
     private String msg;
@@ -23,21 +22,16 @@ public class Result<T> {
 
     }
 
-    public Result(String code, String message, Object data) {
-
-    }
-
-
-    //成功
-    public static <T> Result<T> error(ErrorEnum errorEnum, T data) {
-        return new Result<T>(errorEnum.getCode(), errorEnum.getMessage(),null);
+    //失败
+    public static <T> Result<T> error(String code,String msg,T data) {
+        return new Result<T>(code,msg,data);
     }
     //成功
-    public static <T> Result<T> success(String code,String message) {
-        return new Result<T>(code,message,null);
+    public static <T> Result<T> success(String code,String msg,T data) {
+        return new Result<T>(code,msg,data);
     }
 
-    private static <T> Result<T> setResult(int code, String msg, T data) {
+    private static <T> Result<T> setResult(String code, String msg, T data) {
         Result<T> result = new Result<>();
         result.setCode(code);
         result.setMsg(msg);

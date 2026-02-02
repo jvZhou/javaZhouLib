@@ -1,9 +1,9 @@
 package com.java.zhou.Service;
 
 import com.java.zhou.Common.Result;
-import org.springframework.stereotype.Service;
+import com.java.zhou.Dto.LoginInDto;
 
 
 public interface LoginService {
-     Result login();
+     Result login(LoginInDto loginInDto);
 }

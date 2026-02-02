@@ -7,7 +7,7 @@ import lombok.Getter;
 @AllArgsConstructor
 public enum ErrorEnum {
 
-    import_resume("500","导出错误-------->周明威-简历.pdf.");
+    LOGIN_ERROR("500","用户名密码错误!!!");
 
     private String code;
 

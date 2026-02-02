@@ -6,7 +6,7 @@ import lombok.Getter;
 @Getter
 @AllArgsConstructor
 public enum SuccessEnum {
-    import_resume("200","导出成功-------->周明威-简历.pdf.");
+    LOGIN_Ok("200","登录成功");
 
     private String code;
 
