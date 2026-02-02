@@ -7,10 +7,10 @@ spring:
     name: javaZhou-produceMe
 
   datasource:
-    driver-class-name:
-    url:
-    username:
-    password:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/db?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&transformedBitIsBoolean=true&allowMultiQueries=true
+    username: javaZhou
+    password: weiwubaqi666
     druid:
       initialSize: 1
       minIdle: 3
@@ -32,3 +32,5 @@ spring:
             function-check: false
       connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
       use-global-data-source-stat: true
+mybatis:
+  mapper-locations: classpath:mapper/*.xml

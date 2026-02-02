@@ -8,6 +8,7 @@ package com.java.zhou.Consent;
  * @Version 1.0
  **/
 public class LoginConsent {
+    public static String ZERO="0";
     public static String USER_NAME="javaZhou";
     public static String PASS_WORD="weiwubaqi666";
 }
