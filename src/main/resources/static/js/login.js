@@ -13,7 +13,7 @@ function login() {
         if (xhr.readyState === 4) {
             var code = JSON.parse(xhr.response).code;
             if ( code ===  "200") {
-                alert("登录成功,后续做重定向跳转")
+                window.location.href = "/javaZhou/html/success.html";
             }else{
                 alert("登录失败")
             }
